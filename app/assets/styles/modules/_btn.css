@@ -8,7 +8,9 @@
         background-color: #D59541;
     }
     &--large {
-        font-size: 1.25rem;
-        padding: 1rem 1.5rem;
+        @mixin atSmall {
+            font-size: 1.25rem;
+            padding: 1rem 1.5rem;
+        }
     }
 }
